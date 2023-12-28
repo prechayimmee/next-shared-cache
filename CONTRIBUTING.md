@@ -16,13 +16,13 @@ Firstly, thank you for considering contributing to our project! Your time and ex
 
 ## Tips for a Successful Contribution
 
--   **Open Communication**: Before diving deep into coding, discussing your ideas or the changes you wish to make might. [Create an Issue](https://github.com/caching-tools/next-shared-cache/issues).
+- **Open Communication**: Before diving deep into coding, discussing your ideas or the changes you wish to make might. [Create an Issue](https://github.com/caching-tools/next-shared-cache/issues).
 
--   **Follow Coding Standards**: Consistency is key. Ensure your code follows the coding conventions and styles of the project.
+- **Follow Coding Standards**: Consistency is key. Ensure your code follows the coding conventions and styles of the project.
 
--   **Test Thoroughly**: Before submitting your contribution, test your changes thoroughly to ensure they don't introduce new bugs.
+- **Test Thoroughly**: Before submitting your contribution, test your changes thoroughly to ensure they don't introduce new bugs.
 
--   **Documentation**: Remember to update the documentation accordingly if your changes introduce new features or modify existing ones.
+- **Documentation**: Remember to update the documentation accordingly if your changes introduce new features or modify existing ones.
 
 ---
 
