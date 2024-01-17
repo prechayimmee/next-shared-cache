@@ -1,4 +1,5 @@
-import fs, { promises as fsPromises } from 'node:fs';
+import fs, { promises as fsPromises } from 'fs';
+import path from 'path';
 import path from 'node:path';
 
 import type {
@@ -246,7 +247,7 @@ export class IncrementalCache implements CacheHandler {
      */
     static #useFileSystem = true;
 
-    static #cache: Cache;
+    static #cache: NamedCache;
 
     static #cacheListLength: number;
 
@@ -281,7 +282,7 @@ export class IncrementalCache implements CacheHandler {
 
         // Destructure the cache and useFileSystem settings from the configuration
         // Await the configuration if it's a promise
-        const { cache, useFileSystem = true } = config instanceof Promise ? await config : config;
+        const { cache, useFileSystem = true } = await config;
 
         // Extract the server distribution directory from the cache creation context
         const { serverDistDir } = cacheCreationContext;
